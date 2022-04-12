@@ -1,0 +1,20 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info5" extra="true">
+			<text>MANUFACTURER:</text>
+		</text>
+		
+				<text name="info6" extra="true">
+			<text>Selected Language: EN(US)</text>
+		</text>
+
+	<text name="playbutton" extra="true">
+		<text>PLAY NOW</text>
+	</text>
+
+	</view>
+
+	
+</theme>

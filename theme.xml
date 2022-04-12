@@ -1,8 +1,8 @@
 <!--
-ARTFLIX-NX theme created by 'fagnerpc'
+ARTFLIX-RECALBOX theme created by 'fagnerpc'
 https://facebook.com/alekfull.arcade
 
-Version: 1.00, January 2022 
+Version: 1.00, March 2022 
 For Recalbox 8.0-Electron
 https://github.com/fagnerpc
 
@@ -17,7 +17,7 @@ Theme prohibited for commercial use
 <include subset="systemview" name="2-720p">./systemviews/720p.xml</include>
 	<include>./$system/custom.xml</include>
 	<include>./$system/$language/custom.xml</include>
-
+	<include>./systemviews/lang/$language/custom.xml</include>
 
    <view name="system">
       <sound name="directory">
@@ -26,6 +26,16 @@ Theme prohibited for commercial use
    </view>
 
 
+   <view name="menu, detailed, basic">
+		<helpsystem name="help">
+         <fontPath>./_inc/fonts/Circular Std Book.ttf</fontPath>
+         <fontSize>0.016</fontSize>
+         <pos>0.045 0.955</pos>
+		    <textColor>EFEFEF</textColor>
+            <iconColor>EFEFEF95</iconColor>
+		</helpsystem>
+   </view>
+   
    <view name="menu, detailed, basic">
 		<helpsystem name="help">
          <fontPath>./_inc/fonts/Circular Std Book.ttf</fontPath>

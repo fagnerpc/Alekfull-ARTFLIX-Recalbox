@@ -16,10 +16,8 @@
 		<logoRotationOrigin>5.0 0.3</logoRotationOrigin>
 		<logoAlignment>right</logoAlignment>
 		<maxLogoCount>5</maxLogoCount>
-		<defaultTransition>instant</defaultTransition>
 		<zIndex>71</zIndex>
       </carousel>
-	  
 	  <image name="vertical-layer" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -28,7 +26,7 @@
 		 <zIndex>70</zIndex>
       </image>
 	
-  	 <text name="info1" extra="true">
+	  	 <text name="info1" extra="true">
 		<fontPath>./fonts/Circular Std Book.ttf</fontPath>
 		<color>FFFFFF</color>
 		<alignment>left</alignment>
@@ -42,7 +40,7 @@
 	<image name="sublogo" extra="true">
 		<path>./../_inc/logos/$system.png</path>
 		<path>./../_inc/logos/$system.svg</path>
-		<pos>0.028 0.18</pos>
+		<pos>0.028 0.20</pos>
 		<maxSize>0.26 0.56</maxSize>
 		<zIndex>80</zIndex>
 	</image>
@@ -69,25 +67,6 @@
 		<zIndex>82</zIndex>
       </text>
 
-		<text name="info5" extra="true">
-			<text>FABRICANTE:</text>
-		</text>
-
-		<text name="info5" extra="true" lang="PTBR">
-			<text>FABRICANTE:</text>
-		</text>
-		
-				<text name="info5" extra="true" lang="EN">
-			<text>MANUFACTURER:</text>
-		</text>
-		
-				<text name="info5" extra="true" lang="ES">
-			<text>FABRICANTE:</text>
-		</text>
-		
-				<text name="info5" extra="true" lang="FR">
-			<text>FABRICANT:</text>
-		</text>
 
 	<text name="info5" extra="true">
 		<fontPath>./fonts/Circular Std Black.ttf</fontPath>
@@ -97,31 +76,9 @@
 		<lineSpacing>1</lineSpacing>
 		<size>0.35 0</size>
 		<pos>0.078 0.378</pos>
-		<glowColor>00000016</glowColor>
-		<glowSize>1</glowSize>
 		<zIndex>82</zIndex>
       </text>
 
-
-		<text name="info6" extra="true">
-			<text>Idioma Selecionado: PT(BR)</text>
-		</text>
-
-		<text name="info6" extra="true" lang="PTBR">
-			<text>Idioma Selecionado: PT(BR)</text>
-		</text>
-		
-				<text name="info6" extra="true" lang="EN">
-			<text>Selected Language: EN(US)</text>
-		</text>
-		
-				<text name="info6" extra="true" lang="ES">
-			<text>Idioma Seleccionado: ES</text>
-		</text>
-		
-				<text name="info6" extra="true" lang="FR">
-			<text>Langue Choisie: FR</text>
-		</text>
 
 	<text name="info6" extra="true">
 		<fontPath>./fonts/Circular Std Book.ttf</fontPath>
@@ -134,25 +91,6 @@
 		<zIndex>82</zIndex>
       </text>
 
-	<text name="playbutton" extra="true">
-		<text>JOGAR AGORA</text>
-	</text>
-
-	<text name="playbutton" extra="true" lang="PTBR">
-		<text>JOGAR AGORA</text>
-	</text>
-		
-	<text name="playbutton" extra="true" lang="EN">
-		<text>PLAY NOW</text>
-	</text>
-		
-	<text name="playbutton" extra="true" lang="ES">
-		<text>JUGAR AHORA</text>
-	</text>
-		
-	<text name="playbutton" extra="true" lang="FR">
-		<text>LISTE DES JEUX</text>
-	</text>
 
 	<text name="playbutton" extra="true">
 		<fontPath>./fonts/Circular Std Black.ttf</fontPath>
@@ -166,7 +104,7 @@
 
 	  
       <image name="logo">
-		 <path>./../_inc/logos/$system.svg</path>
+	  	 <path>./../_inc/logos/$system.svg</path>
 	  	 <path>./../_inc/logos/$system.png</path>
 	  </image>
 	  
@@ -188,9 +126,9 @@
     </text> 
 	
 	<helpsystem name="help">
-         <fontPath>./../_inc/fonts/OpenSans-Semibold.ttf</fontPath>
-         <fontSize>0.017</fontSize>
-         <pos>0.02 0.955</pos>
+         <fontPath>./../_inc/fonts/Circular Std Book.ttf</fontPath>
+         <fontSize>0.016</fontSize>
+         <pos>0.045 0.955</pos>
 		    <textColor>EFEFEF</textColor>
             <iconColor>EFEFEF95</iconColor>
 		</helpsystem>  
